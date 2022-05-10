@@ -1,1 +1,2 @@
 * cresk
+cresk is a caseless reversible ergonomic split keyboard.
