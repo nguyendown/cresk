@@ -2587,6 +2587,9 @@
   (gr_line (start 173.885 25.61) (end 173.885 97.85) (layer "Edge.Cuts") (width 0.1) (tstamp df3ebbcc-f6cb-45c0-85bc-a9823cf52dc7))
   (gr_line (start 168.41 34.54) (end 157.77 34.54) (layer "Edge.Cuts") (width 0.1) (tstamp e23fb7e1-005c-425d-ae94-074c5a339c3b))
   (gr_line (start 168.41 24.34) (end 168.41 34.54) (layer "Edge.Cuts") (width 0.1) (tstamp e5ca9b44-4cf7-460f-b69a-bc843895ef32))
+  (gr_text "cresk\n " (at 79.27 86.57) (layer "F.SilkS") (tstamp b22575e4-0838-4d53-a202-9782ea057b6e)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
 
   (segment (start 155.47 49.74) (end 151.66 49.74) (width 0.381) (layer "F.Cu") (net 1) (tstamp 1f067faa-1edf-4cb4-8129-9bd08f4d9db0))
   (segment (start 142.71 40.79) (end 137.75 40.79) (width 0.381) (layer "F.Cu") (net 1) (tstamp 585a554e-a230-4b0a-8977-924baff860e8))
