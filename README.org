@@ -55,14 +55,22 @@ Double press NRST to enter UF2 bootloader. Then copy .uf2 file to
 BlackPill drive.
 #+end_src
 ** Assemble
-Normally, you would assemble the keyboard as intended.
+Components placements.
+
 #+ATTR_HTML: title="placement1"
-[[./res/placement1.jpg][./res/placement1.jpg]]
+./res/placement1.jpg
+
 #+ATTR_HTML: title="placement2"
 [[./res/placement2.jpg][./res/placement2.jpg]]
 
-However, you may want to maximize repairability and extensibility by
-solder the blackpill like [[./res/blackpill-pins.jpg][this]].
+#+ATTR_HTML:
+./res/bumpers1.jpg
+
+#+ATTR_HTML:
+./res/bumpers2.jpg
+
+You may want to maximize repairability and extensibility by soldering
+the blackpill like [[./res/blackpill-pins.jpg][this]].
 
 [[./res/extend-sw17-sw18.jpg][Here]] is a more descriptive detailed instruction if you want to extend
 SW17, and SW18 on the right side. Firmware for this mod:
