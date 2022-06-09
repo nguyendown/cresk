@@ -56,12 +56,16 @@ BlackPill drive.
 #+end_src
 ** Assemble
 Normally, you would assemble the keyboard as intended.
+#+ATTR_HTML: title="placement"
+[[./res/placement.jpg][./res/placement.jpg]]
 
 However, you may want to maximize repairability and extensibility by
 solder the blackpill like [[./res/blackpill-pins.jpg][this]].
 
 [[./res/extend-sw17-sw18.jpg][Here]] is a more descriptive detailed instruction if you want to extend
-SW17, and SW18 on the right side.
+SW17, and SW18 on the right side. Firmware for this mod:
+
+https://github.com/nguyendown/zmk-config/tree/extend-sw17-sw18
 
 I'll try duplex matrix in the next version.
 ** Known issues
