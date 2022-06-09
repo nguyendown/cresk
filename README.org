@@ -56,8 +56,10 @@ BlackPill drive.
 #+end_src
 ** Assemble
 Normally, you would assemble the keyboard as intended.
-#+ATTR_HTML: title="placement"
-[[./res/placement.jpg][./res/placement.jpg]]
+#+ATTR_HTML: title="placement1"
+[[./res/placement1.jpg][./res/placement1.jpg]]
+#+ATTR_HTML: title="placement2"
+[[./res/placement2.jpg][./res/placement2.jpg]]
 
 However, you may want to maximize repairability and extensibility by
 solder the blackpill like [[./res/blackpill-pins.jpg][this]].
