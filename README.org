@@ -58,16 +58,16 @@ BlackPill drive.
 Components placements.
 
 #+ATTR_HTML: title="placement1"
-./res/placement1.jpg
+[[./res/placement1.jpg]]
 
 #+ATTR_HTML: title="placement2"
 [[./res/placement2.jpg][./res/placement2.jpg]]
 
 #+ATTR_HTML:
-./res/bumpers1.jpg
+[[./res/bumpers1.jpg]]
 
 #+ATTR_HTML:
-./res/bumpers2.jpg
+[[./res/bumpers2.jpg]]
 
 You may want to maximize repairability and extensibility by soldering
 the blackpill like [[./res/blackpill-pins.jpg][this]].
