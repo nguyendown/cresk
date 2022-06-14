@@ -40,11 +40,14 @@ dfu-util -d 0483:df11 -a 0 -s 0x08000000:leave -D tinyuf2-stm32f401_blackpill-x.
 #+end_src
 ** Firmware
 Firmware is either built locally or using Github Actions.
+
 https://github.com/nguyendown/zmk-config
 *** Github Actions
-Fork the config repository. Customize your own keymap
-~config/boards/shields/cresk/cresk.keymap~. Commit. The new firmware
-will be on Actions tab.
+- Fork the config repository
+- Customize your own keymap
+~config/boards/shields/cresk/cresk.keymap~
+- Commit
+- The new firmware will be on Actions tab.
 *** Local build
 https://zmk.dev/docs/development/build-flash
 #+begin_src
