@@ -66,6 +66,8 @@ Components placements.
 #+ATTR_HTML: :title placement2
 [[./res/placement2.jpg]]
 
+Cut the bumpers in half then place them like this.
+
 #+ATTR_HTML: :title bumpers1
 [[./res/bumpers1.jpg]]
 
