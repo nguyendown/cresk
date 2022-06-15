@@ -44,8 +44,7 @@ Firmware is either built locally or using Github Actions.
 https://github.com/nguyendown/zmk-config
 *** Github Actions
 - Fork the config repository
-- Customize your own keymap
-~config/boards/shields/cresk/cresk.keymap~
+- Customize your own keymap ~config/boards/shields/cresk/cresk.keymap~
 - Commit
 - The new firmware will be on Actions tab.
 *** Local build
