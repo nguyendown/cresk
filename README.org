@@ -42,6 +42,9 @@ Then, flash tinyuf2 using ~dfu-util~
 dfu-util -d 0483:df11 -a 0 -s 0x08000000:leave -D tinyuf2-stm32f401_blackpill-x.x.x.bin
 #+end_src
 ** Firmware
+To flash a new firmware, double press NRST to enter UF2 bootloader.
+Then copy .uf2 file to BlackPill drive.
+
 Firmware is either built locally or using Github Actions.
 
 https://github.com/nguyendown/zmk-config
@@ -54,10 +57,6 @@ https://github.com/nguyendown/zmk-config
 https://zmk.dev/docs/development/build-flash
 #+begin_src
 west build -p -b blackpill_f401cc -- -DSHIELD=cresk -DZMK_CONFIG=/path/to/zmk-config/config
-#+end_src
-*** Flash a new firmware
-Double press NRST to enter UF2 bootloader. Then copy .uf2 file to
-BlackPill drive.
 #+end_src
 ** Assemble
 Components placements.
