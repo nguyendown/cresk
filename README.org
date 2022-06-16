@@ -21,8 +21,11 @@ cresk is a caseless reversible ergonomic split keyboard.
 ** Bootloader
 A bootloader is required since entering DFU mode on a blackpill is
 nearly impossible.
-*** Enter DFU bootloader
-Repeat these steps until your OS recognizes the device.
+
+First, download [[https://github.com/adafruit/tinyuf2/releases][tinyuf2-stm32f401_blackpill-x.x.x]]. Extract it.
+
+Enter DFU bootloader. Repeat these steps until your OS recognizes the
+device.
 - Hold BOOT0
 - Press NRST
 - Release BOOT0
@@ -33,8 +36,8 @@ component(s) on the blackpill. See Known issues.
 
 You may increase the chance of success by heating it or using a USB to
 TTL serial adaptor. See Known issues.
-*** Flash tinyuf2 bootloader
-Download [[https://github.com/adafruit/tinyuf2/releases][tinyuf2-stm32f401_blackpill-x.x.x]]
+
+Then, flash tinyuf2 using ~dfu-util~
 #+begin_src
 dfu-util -d 0483:df11 -a 0 -s 0x08000000:leave -D tinyuf2-stm32f401_blackpill-x.x.x.bin
 #+end_src
