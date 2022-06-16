@@ -37,7 +37,7 @@ component(s) on the blackpill. See Known issues.
 You may increase the chance of success by heating it or using a USB to
 TTL serial adaptor. See Known issues.
 
-Then, flash tinyuf2 using ~dfu-util~
+Then, upload tinyuf2 using ~dfu-util~
 #+begin_src
 dfu-util -d 0483:df11 -a 0 -s 0x08000000:leave -D tinyuf2-stm32f401_blackpill-x.x.x.bin
 #+end_src
@@ -46,18 +46,24 @@ To flash a new firmware, double press NRST to enter UF2 bootloader.
 Then copy .uf2 file to BlackPill drive.
 
 Firmware is either built locally or using Github Actions.
-
-https://github.com/nguyendown/zmk-config
 *** Github Actions
-- Fork the config repository
-- Customize your own keymap ~config/boards/shields/cresk/cresk.keymap~
+- Fork the [[https://github.com/nguyendown/zmk-config][config]] repository
+- Edit keymap ~config/boards/shields/cresk/cresk.keymap~
 - Commit
 - The new firmware will be on Actions tab.
 *** Local build
-https://zmk.dev/docs/development/build-flash
+- [[https://zmk.dev/docs/development/setup][Setup]] build environment
+- Clone the [[https://github.com/nguyendown/zmk-config][config]] repository
+- Edit keymap ~config/boards/shields/cresk/cresk.keymap~
+- [[https://zmk.dev/docs/development/build-flash][Build]] firmware
 #+begin_src
+cd /path/to/zmk/app
 west build -p -b blackpill_f401cc -- -DSHIELD=cresk -DZMK_CONFIG=/path/to/zmk-config/config
 #+end_src
+- The new firmware is at ~/path/to/zmk/app/build/zephyr/zmk.uf2~
+*** Keymap
+See\\
+https://zmk.dev/docs/features/keymaps
 ** Assemble
 Components placements.
 
