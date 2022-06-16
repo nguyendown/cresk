@@ -89,9 +89,9 @@ See
 
 https://forum.hobbycomponents.com/viewtopic.php?f=87&t=2947
 
-A more reliable way is to use a USB to TTL serial adapter. Connect
-the TX pin to A10 (USART1_RX) on the blackpill. It's kinda ironic that
-you can just flash directly using USART.
+A more reliable way is to use a USB to TTL serial adapter. Connect the
+TX pin to A10 (USART1_RX) on the blackpill. Then enter DFU mode. It's
+kinda ironic that you can just flash directly using USART.
 *** Failed power component(s)
 When I first received the board, I tried to get into DFU mode by
 replugging the USB port instead of pressing NRST. My blackpill failed
