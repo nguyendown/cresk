@@ -34,7 +34,7 @@
   (fp_line (start 7.62 -7.62) (end 3.81 -7.62) (layer "F.SilkS") (width 0.12) (tstamp 9acac7bd-0bd2-4a34-99c3-3adaee00ea9f))
   (fp_line (start 7.62 -7.62) (end 7.62 -3.81) (layer "F.SilkS") (width 0.12) (tstamp a5dc042e-ccf6-4daf-b017-ba46ebc3fd4e))
   (fp_line (start 7.62 7.62) (end 3.81 7.62) (layer "F.SilkS") (width 0.12) (tstamp ede38e38-96d1-454f-9951-7f5937cd4f0a))
-  (fp_rect (start -9.375 -9.375) (end 9.375 9.375) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp 9abd88ce-b1e3-48dc-9e26-39df54789e67))
+  (fp_rect (start -9.5 -9.5) (end 9.5 9.5) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp 9abd88ce-b1e3-48dc-9e26-39df54789e67))
   (fp_rect (start -7.8 7.8) (end 7.8 -7.8) (layer "B.CrtYd") (width 0.05) (fill none) (tstamp 12bc6d1d-aeb1-42d2-ad5c-93f23a6d9ced))
   (fp_rect (start 7.8 7.8) (end -7.8 -7.8) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 1024e770-8c4f-44b1-97d7-dc116bfc7fe7))
   (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Mask) (tstamp 5f79ca16-1b5e-47ab-90c2-75b897302cd0))
